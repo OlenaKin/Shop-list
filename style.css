@@ -1,0 +1,122 @@
+body {
+    background-color: #3B3F45;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 24px;
+    padding: 7px; 
+    margin: 0px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0px; 
+    margin: 0px;
+}
+
+header {
+    background-color: #4a4f56;
+    color: #ff8984;
+    width: 793px;
+    height: 82px;
+    margin: 0 auto;
+    padding-top: 2px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+small:before{
+    content: "(";
+}
+
+small:after{
+    content: ")";
+}
+
+.overall-container{
+    width: 793px;
+    margin: 0 auto;
+    border: 10px solid white;
+}
+
+.container {
+    width: 593px;
+    margin: 0 auto;
+    margin-bottom: 43px;
+    text-align: start;
+}
+
+.list-row {
+    color: #ffffff;    
+    padding: 10px;    
+    box-sizing: border-box;
+}
+
+
+li:hover {
+    background: #625E77;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+}
+
+li:nth-child(odd) {
+    background-color: #88839e;
+    margin-top: 0;
+    color: #ffffff;
+}
+
+li:nth-child(2) {
+    background-color: #7a7593;
+}
+
+li:nth-child(4) {
+    background-color: #625e77;
+}
+
+li:nth-child(6) {
+    background-color: #7a7593;
+}
+
+input:checked + label {
+    text-decoration: line-through;
+    color: aqua;
+} 
+
+.button-div {
+    width: 593px;
+    margin: 0 auto;
+    margin-bottom: 43px;
+    text-align: start;
+}
+
+.bon-appetit-button {
+
+    width: 593px;
+    height: 45px;
+    line-height: 23px;
+    background-color: #4a4f56;
+    color: #ff8984;
+    cursor: pointer;
+}
+
+button:hover {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.list-row:active {
+    background-color: rgb(155, 82, 82);
+}
+
+
+
