@@ -64,10 +64,14 @@ small:after{
 
 
 li:hover {
-    background: #625E77;
+    
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
     cursor: pointer;
+}
+
+.list-row:hover{
+    background-color: #4a4857;
 }
 
 li:nth-child(odd) {
@@ -76,21 +80,14 @@ li:nth-child(odd) {
     color: #ffffff;
 }
 
-li:nth-child(2) {
+li:nth-child(even) {
     background-color: #7a7593;
 }
 
-li:nth-child(4) {
-    background-color: #625e77;
-}
-
-li:nth-child(6) {
-    background-color: #7a7593;
-}
 
 input:checked + label {
     text-decoration: line-through;
-    color: aqua;
+    color: aqua;    
 } 
 
 .button-div {
