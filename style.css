@@ -59,6 +59,7 @@ small:after{
     color: #ffffff;    
     padding: 10px;    
     box-sizing: border-box;
+    transition: all 0.1s ease-in;
 }
 
 
@@ -114,7 +115,7 @@ button:hover {
     border-bottom: 2px solid #fff;
 }
 
-.list-row:active {
+li:active {
     background-color: rgb(155, 82, 82);
 }
 
