@@ -60,6 +60,8 @@ small:after{
     padding: 10px;    
     box-sizing: border-box;
     transition: all 0.1s ease-in;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
 }
 
 
